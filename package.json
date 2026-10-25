@@ -1,0 +1,36 @@
+{
+  "name": "caption-pro",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 5190 --strictPort --open",
+    "dev": "vite --port 5190 --strictPort",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:export": "vitest run --config vitest.export.config.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.0",
+    "@fontsource-variable/montserrat": "^5.2.0",
+    "@fontsource-variable/tiktok-sans": "^5.2.0",
+    "@fontsource/bebas-neue": "^5.2.0",
+    "@fontsource/poppins": "^5.2.0",
+    "@remixicon/react": "^4.9.0",
+    "emoji-datasource-apple": "16.0.0",
+    "ffmpeg-static": "^5.3.0",
+    "ffprobe-static": "^3.1.0",
+    "react": "~19.2.0",
+    "react-dom": "~19.2.0",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.0",
+    "vitest": "^5.0.0"
+  }
+}

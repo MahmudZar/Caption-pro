@@ -1,0 +1,31 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# Runtime data: media registry, waveform peaks, preview proxies, emoji cache, autosave, export jobs, test videos
+data/
+
+# Local media and exports
+*.mp4
+*.mov
+*.m4v
+*.mkv
+*.webm
+*.avi
+*.captionpro
+
+# Secrets and local settings
+.env
+.env.*
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/

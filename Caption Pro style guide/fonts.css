@@ -1,0 +1,9 @@
+/* Caption Pro fonts: self-hosted */
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("fonts/Inter-400-700.woff2") format("woff2");
+}

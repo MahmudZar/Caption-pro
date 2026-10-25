@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Caption Pro style guide</title>
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="variables.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <section class="tk-section">
+      <div class="tk-container">
+        <h1 class="tk-heading">Caption Pro</h1>
+        <p class="tk-paragraph">A starter page for your style guide. Sections, containers and text use the .tk-* element classes; the rest comes from the utility classes in styles.css.</p>
+        <div class="tk-block" style="flex-direction: row; flex-wrap: wrap; gap: var(--content-gap);">
+          <a class="tk-button btn--primary" href="#">Get started</a>
+          <button type="button" class="tk-button btn--secondary" onclick="var r = document.documentElement; r.setAttribute('data-theme', getComputedStyle(r).colorScheme.indexOf('dark') > -1 ? 'light' : 'dark');">Toggle theme</button>
+        </div>
+      </div>
+    </section>
+    <section class="tk-section" data-theme="dark" style="background-color: var(--surface-1); color: var(--text-secondary);">
+      <div class="tk-container">
+        <h2 class="tk-heading">A dark section</h2>
+        <div class="tk-text">
+          <p>data-theme="dark" on any element switches its tokens, so one page can mix light and dark sections.</p>
+          <p>Headings, paragraphs and <a href="#">links</a> pick up the theme style.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
